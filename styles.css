@@ -1,0 +1,187 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: #5F8170;
+}
+
+/* 3% to top/bottom & 15% to left/right. */
+.container-fluid {
+  padding: 3% 15%;
+} 
+
+h1 {
+  font-family: 'aileron', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #FFECD8;
+}
+
+h2 {
+  font-family: 'aileron', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #FFECD8;
+}
+
+h3 {
+  font-family: 'aileron', sans-serif;
+  font-weight: bold;
+  color:#5F8170
+}
+
+h4 {
+  font-family: 'aileron';
+  font-weight: bold;
+  color:#004D30
+}
+
+p {
+  color: #8f8f8f;
+}
+
+label {
+  color:#C9E0DC
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'aileron';
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #004D30;
+}
+
+/* Modify brand and text color */
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'aileron', sans-serif;
+  font-size: 1.2rem;
+  color: #004D30;
+  font-weight: bold;
+}
+
+/* Resume Buttons */
+.resume-button {
+  margin: 5% 3% 5% 0;
+}
+/* Contact Buttons */
+.contact-button {
+  margin: 5% 3% 5% 0;
+}
+/* Email Buttons */
+.email-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 80%;
+    border-radius: 50%;
+}
+
+/* Feature Section (whenever working with "section id" have to use pound sign */
+#features {
+  padding: 7% 15%;
+  background-color: #C9E0DC;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #5F8170;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #AC8D68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #AC8D68;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.aboutme-image {
+  width: 30%;
+  border-radius: 50%;
+  margin: 10x;
+}
+
+#press {
+  background-color: #AC8D68;
+  text-align: center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Projects & Skills Section */
+
+#skills {
+  padding: 100px;
+  text-align: center;
+  background-color: #EEBBAC;
+}
+
+.skills-header {
+  color: #AC8D68;
+}
+
+.skills-column{
+  padding: 3% 2%;
+}
+
+/* Call to action section CTA */
+#cta {
+  background-color: #5F8170;
+  color: #004D30;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'aileron';
+  font-weight: 100;
+  font-style: italic;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #004D30;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color:#5F8170;
+}
+
+/* Media Query Section */
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
