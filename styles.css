@@ -5,7 +5,6 @@
 #FFECD8 Linen
 #EEBBAC Pink Bows
 ##C9E0DC Oceanside
-
 */
 
 #title {
@@ -48,6 +47,11 @@ p {
   color: #004D30;
 }
 
+p2 {
+  color: #FFECD8;
+}
+
+
 label {
   color:#C9E0DC
 }
@@ -79,14 +83,25 @@ label {
 /* Resume Buttons */
 .resume-button {
   margin: 5% 3% 5% 0;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.3s;
 }
+
+.resume-button:hover {
+  background-color: #FFECD8; /* Green */
+  color: #AC8D68;
+}
+
 /* Contact Buttons */
 .contact-button {
   margin: 5% 3% 5% 0;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-/* Email Buttons */
-.email-button {
-  margin: 5% 3% 5% 0;
+
+.contact-button:hover {
+  background-color: #FFECD8; /* Green */
+  color: #AC8D68;
 }
 
 /* Title Image */
