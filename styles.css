@@ -1,4 +1,13 @@
 /* COGS3 studyBuddy specific styles go here. */
+/* Colors
+#5F8170 Sage
+#004D30 Evergreen
+#FFECD8 Linen
+#EEBBAC Pink Bows
+##C9E0DC Oceanside
+
+*/
+
 #title {
   background-color: #5F8170;
 }
@@ -26,7 +35,7 @@ h2 {
 h3 {
   font-family: 'aileron', sans-serif;
   font-weight: bold;
-  color:#5F8170
+  color:#004D30
 }
 
 h4 {
@@ -36,7 +45,7 @@ h4 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #004D30;
 }
 
 label {
@@ -109,7 +118,7 @@ label {
 /* Testimonial Section */
 #testimonials {
   text-align: center;
-  background-color: #AC8D68;
+  background-color: #5F8170;
 }
 .carousel-item {
   padding: 7% 15%;
@@ -122,7 +131,7 @@ label {
 }
 
 #press {
-  background-color: #AC8D68;
+  background-color: #5F8170;
   text-align: center;
 }
 
@@ -136,15 +145,20 @@ label {
 #skills {
   padding: 100px;
   text-align: center;
-  background-color: #EEBBAC;
+  background-color: #C9E0DC;
 }
 
 .skills-header {
-  color: #AC8D68;
+  color: #5F8170;
 }
 
 .skills-column{
   padding: 3% 2%;
+}
+
+.card {
+  box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+  background-color: #5F8170;
 }
 
 /* Call to action section CTA */
